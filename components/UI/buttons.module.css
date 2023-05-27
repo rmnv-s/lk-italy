@@ -1,0 +1,14 @@
+.button {
+  border: 1px solid #333;
+  max-width: 20rem;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+
+  width: 100%;
+}

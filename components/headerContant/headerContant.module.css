@@ -1,0 +1,36 @@
+.contant {
+  min-height: calc(100vh - 1rem);
+  background-color: plum;
+  background-image: url(../../public/main-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+}
+
+
+.contant__inner {
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contant__heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: .2rem;
+  color: #2c2c2c;
+  margin-bottom: 1rem;
+}
+
+.contant__text {
+  color: #2c2c2c;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  max-width: 350px;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
