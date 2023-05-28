@@ -1,0 +1,40 @@
+.block {
+}
+
+.block__inner {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.block__reverse {
+  outline: 1px solid red;
+}
+
+.content {
+}
+
+.bgr__face {
+  background-image: url(../../public/blockFaceBG.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+.content__buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.title {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  max-width: 25rem;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  margin-bottom: 2rem;
+}
