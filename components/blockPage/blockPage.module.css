@@ -8,7 +8,7 @@
 }
 
 .block__reverse {
-  outline: 1px solid red;
+  flex-direction: row-reverse;
 }
 
 .content {
@@ -16,6 +16,13 @@
 
 .bgr__face {
   background-image: url(../../public/blockFaceBG.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 0;
+}
+
+.bgr__prof {
+  background-image: url(../../public/blockFaceBG1.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 0;
