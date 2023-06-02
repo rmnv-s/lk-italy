@@ -11,6 +11,11 @@
   flex-direction: row-reverse;
 }
 
+.image {
+  width: 100%;
+
+}
+
 .content {
 }
 
