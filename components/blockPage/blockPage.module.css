@@ -11,6 +11,10 @@
   flex-direction: row-reverse;
 }
 
+.image {
+  width: 100%;
+}
+
 .content {
 }
 
@@ -22,7 +26,7 @@
 }
 
 .bgr__prof {
-  background-image: url(../../public/blockProfBG.webp);
+  background-image: url(../../public/blockFaceBG1.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3rem 0;
