@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css';
 import HeaderContent from '../components/headerContant/headerContant';
 import BlockPage from '../components/blockPage/blockPage';
+import Form from '../components/form/form';
 
 import blockFace from '../public/blockFace.webp';
 import blockBody from '../public/blockBody.webp';
@@ -42,6 +43,8 @@ export default function Home() {
         title="Trattamenti professionali Linda Kristel"
         subtitle="Gli esclusivi prodotti Linda Kristel vengono utilizzati da esperti professionisti, nei più importanti centri di medicina estetica e cliniche dermatologiche."
       />
+
+      <Form />
     </>
   );
 }
