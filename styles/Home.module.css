@@ -2,33 +2,3 @@
   padding: 0 2rem;
 }
 
-.about-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-.about-text__heding {
-  position: relative;
-  font-size: 2.4rem;
-}
-
-.about-text__heding::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background-color: #333333;
-  top: -70px;
-  left: 2px;
-}
-
-.about-text__subheding {
-  max-width: 500px;
-  margin-top: 3rem;
-}
