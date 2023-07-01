@@ -14,7 +14,7 @@ const BlockPage = ({ img, alt, title, subtitle, children, reverse, bgrFace, bgrP
 	return (
 		<section className={`${styles.block} ${style(backgroundFace)} ${style(backgroundProf)}`}>
 			<div className={`${styles.block__inner} ${style(blockReverse)} wrapper`}>
-				<Image className={`${styles.image}`} src={img} alt={alt} rel="preload" />
+				<Image className={`${styles.image}`} src={img} alt={'image'} rel="preload" />
 				<div className={`${styles.content} `}>
 					<h2 className={styles.title}>{title}</h2>
 					<p className={styles.subtitle}>{subtitle}</p>
