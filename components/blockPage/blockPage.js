@@ -22,9 +22,9 @@ const BlockPage = ({ img, alt, title, subtitle, children, reverse, bgrFace, bgrP
 	return (
 		<section className={`${styles.block} ${style(backgroundFace)} ${style(backgroundProf)}`}>
 			<div data-aos="fade-up">
-				<div className={`${styles.block__inner} ${style(blockReverse)} wrapper`}>
+				<div className={`${styles.block__inner}  wrapper`}>
 					<Image className={`${styles.image}`} src={img} alt={'image'} rel="preload" />
-					<div className={`${styles.content} `}>
+					<div className={`${styles.content} ${style(blockReverse)}`}>
 						<h2 className={styles.title}>{title}</h2>
 						<p className={styles.subtitle}>{subtitle}</p>
 						<div className={styles.content__buttons}>
