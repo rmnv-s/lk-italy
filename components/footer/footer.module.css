@@ -41,3 +41,22 @@
 .logo_big {
   margin-top: 2rem;
 }
+
+@media (max-width: 425px) {
+  .footer__inner {
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+  }
+
+  .logo_big {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer__inner {
+    padding: 0 2rem;
+  }
+
+
+}

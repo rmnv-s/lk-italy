@@ -33,7 +33,7 @@
 .logo {
   position: absolute;
   top: 18px;
-  left: 50%;
+  right: 50%;
   width: 40px;
   transform: translate(-50%, -50%)
 }
@@ -47,4 +47,19 @@
   width: 4rem;
   height: 24px;
   cursor: pointer;
+}
+
+
+@media (max-width: 425px) {
+  .logo {
+    right: 0;
+  }
+
+  .header__inner {
+    justify-content: normal;
+  }
+
+  .input {
+   margin-left: 1rem;
+  }
 }
