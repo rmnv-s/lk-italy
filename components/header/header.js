@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import styles from "./header.module.css";
-import Link from "next/link";
-import Image from "next/image";
-import logo from "../../public/LK_Logo_gray.svg";
+import React, { useState } from 'react';
+import styles from './header.module.css';
+import Link from 'next/link';
+import Image from 'next/image';
+import logo from '../../public/LK_Logo_gray.svg';
 
 const Header = () => {
   const [visibly, setVisibly] = useState(false);
@@ -17,28 +17,28 @@ const Header = () => {
           <nav className={`${styles.nav} ${visibly ? styles.nav__open : null}`}>
             <button
               onClick={() => setVisibly(false)}
-              className={styles["close-menu"]}
+              className={styles['close-menu']}
             >
               Close
             </button>
             <ul onClick={() => setVisibly(false)} className={styles.nav__list}>
               <li className={styles.list}>
-                <li className={styles.list}>
-                  <Link className={styles.nav__link} href="/about">
-                    about
-                  </Link>
-                </li>
-                <Link className={styles.nav__link} href="/face">
+                <Link className={styles.nav__link} href='/about'>
+                  about
+                </Link>
+              </li>
+              <li className={styles.list}>
+                <Link className={styles.nav__link} href='/face'>
                   per il viso
                 </Link>
               </li>
               <li className={styles.list}>
-                <Link className={styles.nav__link} href="/body">
+                <Link className={styles.nav__link} href='/body'>
                   per il corpo
                 </Link>
               </li>
               <li className={styles.list}>
-                <Link className={styles.nav__link} href="/prof">
+                <Link className={styles.nav__link} href='/prof'>
                   professionale
                 </Link>
               </li>
@@ -49,15 +49,15 @@ const Header = () => {
             Menu
           </button>
 
-          <Link href="/">
-            <Image className={styles.logo} src={logo} alt="logo" />
+          <Link href='/'>
+            <Image className={styles.logo} src={logo} alt='logo' />
           </Link>
 
           <input
             className={styles.input}
-            type="search"
-            id="site-search"
-            placeholder="search..."
+            type='search'
+            id='site-search'
+            placeholder='cerca...'
           />
         </div>
       </header>

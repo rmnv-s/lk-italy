@@ -1,0 +1,39 @@
+.content {
+  display: grid;
+  grid-template-columns: 10% 45% 1fr;
+  align-items: center;
+
+  min-height: calc(100vh - 1rem);
+  width: 100%;
+
+  background-color: #333333;
+  color: #f3f3f3;
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  grid-column: 2/3;
+}
+
+.heading {
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+}
+
+.bgImage {
+  position: relative;
+  margin-top: 4rem;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .inner {
+    grid-column: 1/3;
+  }
+}
