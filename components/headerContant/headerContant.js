@@ -10,12 +10,10 @@ const HeaderContent = () => {
     <>
       <div className={styles.content}>
         <Image
-          className={styles.b}
+          className={styles.bg}
           alt='Linda kristel products'
           src={mainPageBG}
           fill
-          placeholder='blur'
-          loading='lazy'
           sizes='100vw'
         />
         <div className={`${styles.contant__inner} wrapper`}>

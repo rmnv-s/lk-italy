@@ -1,0 +1,33 @@
+.content {
+  margin-top: 10rem;
+}
+
+.content-inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+  gap: 1rem;
+}
+
+.image {
+  width: 100%;
+  object-fit: contain;
+}
+
+.content-heding {
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+
+.content-text {
+  margin-bottom: 1rem;
+  font-size: 1.6em;
+}
+
+.content-description {
+}
+
+.content-inner :not(:first-of-type) {
+  /* outline: 1px solid tomato; */
+  /* grid-column: 1/2; */
+}

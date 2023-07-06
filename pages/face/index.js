@@ -6,8 +6,8 @@ const Face = () => {
     <>
       <MainScreen
         bgImage={faceBG}
-        heading='Per la cura del tuo corpo'
-        subheading='Senti la cura per la bellezza, la salute e la giovinezza del tuo corpi con prodotti Linda Kristel'
+        heading='Per la cura del tuo viso'
+        subheading='Texture di lusso e l`efficacia senza pari dei migliori prodotti Linda Kristel'
       />
       <Form />
     </>
