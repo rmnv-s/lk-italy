@@ -1,19 +1,27 @@
-import React, { useState, useEffect } from "react";
-import "../styles/globals.css";
-import Layout from "../components/layout/layout";
-import Loader from "../components/UI/loader";
-import { useRouter } from "next/router";
+import React, { useState, useEffect } from 'react';
+import '../styles/globals.css';
+import Layout from '../components/layout/layout';
+import Loader from '../components/UI/loader';
+import { useRouter } from 'next/router';
+
+import { Roboto } from 'next/font/google';
+
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+});
 
 function MyApp({ Component, pageProps }) {
   const [loader, setLoader] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
-    router.events.on("routeChangeStart", () => {
+    router.events.on('routeChangeStart', () => {
       setLoader(true);
     });
 
-    router.events.on("routeChangeComplete", () => {
+    router.events.on('routeChangeComplete', () => {
       setLoader(false);
     });
   }, []);
@@ -22,7 +30,7 @@ function MyApp({ Component, pageProps }) {
     <>
       {loader && <Loader />}
       <Layout>
-        <main className="main">
+        <main className='main' className={roboto.className}>
           <Component {...pageProps} />
         </main>
       </Layout>
