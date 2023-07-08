@@ -20,8 +20,9 @@ const HeaderContent = () => {
           alt='Linda kristel products'
           src={mainPageBG}
           fill
-          sizes='100vw'
+          sizes='100vw, 100vh'
           placeholder='blur'
+          priority
           onLoad={handleImageLoad}
         />
         {imageLoaded && (

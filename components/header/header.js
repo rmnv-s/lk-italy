@@ -12,7 +12,14 @@ const Header = () => {
         <div className={`${styles.header__inner} wrapper`}>
           <Menu />
           <Link href='/'>
-            <Image className={styles.logo} src={logo} alt='logo' />
+            <Image
+              className={styles.logo}
+              src={logo}
+              alt='logo'
+              width={40}
+              height={56}
+              onLoadingComplete={(e) => console.log(e)}
+            />
           </Link>
 
           <input

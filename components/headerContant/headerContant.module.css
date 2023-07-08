@@ -1,10 +1,10 @@
 .content {
+  position: relative;
   min-height: calc(100vh - 1rem);
   display: flex;
 }
 
 .bg {
-  position: relative;
   object-fit: cover;
   z-index: -1;
 }
