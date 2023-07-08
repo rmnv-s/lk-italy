@@ -53,6 +53,16 @@
   }
 }
 
+@media (max-width: 375px) {
+  .company {
+    flex-direction: column;
+  }
+
+  .company__distribut {
+    margin-bottom: 1.5rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .footer__inner {
     padding: 0 2rem;

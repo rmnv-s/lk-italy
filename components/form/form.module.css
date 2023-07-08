@@ -36,3 +36,9 @@
 .controls textarea {
   height: 10rem;
 }
+
+@media (max-width: 425px) {
+  .section button {
+    width: 100%;
+  }
+}
