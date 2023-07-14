@@ -1,5 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
-
+import corpoPerfetto from '../../public/cardImages/Corpo-perfetto.png';
+import ambiantPlus from '../../public/cardImages/Ambiant-Plus.png';
 const productsData = [
   {
     id: uuidv4(),
@@ -81,14 +82,14 @@ const productsData = [
 
   {
     id: uuidv4(),
-    // img: card1,
+    img: corpoPerfetto,
     title: 'Corpo perfetto',
     text: 'Per la cura quotidiana del tuo corpo',
     tag: 'Body',
   },
   {
     id: uuidv4(),
-    // img: card1,
+    img: ambiantPlus,
     title: 'Ambiant Plus',
     text: 'Per la cura quotidiana del tuo corpo',
     tag: 'Body',
@@ -115,4 +116,9 @@ const productsData = [
     tag: 'Prof',
   },
 ];
+
+export const bodyProducts = () => {
+  return productsData.filter((product) => product.tag === 'Body');
+};
+
 export default productsData;
