@@ -40,7 +40,7 @@
 }
 
 .title {
-  font-size: 2rem;
+  font-size: 3.2rem;
   text-transform: uppercase;
   max-width: 25rem;
   margin-bottom: 1.5rem;
@@ -54,19 +54,19 @@
 }
 
 @media (max-width: 1024px) {
- .content__buttons {
-   flex-direction: column;
- }
+  .content__buttons {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 968px) {
- .title  {
-   font-size: 1.8rem;
- }
- .subtitle {
-   font-size: 1.4rem;
-   line-height: 2rem;
- }
+  .title {
+    font-size: 1.8rem;
+  }
+  .subtitle {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
 }
 
 @media (max-width: 425px) {
@@ -74,15 +74,15 @@
     grid-template-columns: 1fr;
   }
 
- .title  {
-   font-size: 1.6rem;
- }
+  .title {
+    font-size: 1.6rem;
+  }
 
- .subtitle {
-   font-size: 1.4rem;
-   line-height: 1.6rem;
- }
- .content__buttons {
+  .subtitle {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+  .content__buttons {
     flex-direction: row;
   }
 

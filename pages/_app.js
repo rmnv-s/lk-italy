@@ -28,9 +28,15 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
+      <style jsx global>{`
+        html {
+          font-family: ${roboto.style.fontFamily};
+        }
+      `}</style>
+
       {loader && <Loader />}
       <Layout>
-        <main className='main' className={roboto.className}>
+        <main className='main'>
           <Component {...pageProps} />
         </main>
       </Layout>

@@ -90,7 +90,7 @@ const productsData = [
   {
     id: uuidv4(),
     img: ambiantPlus,
-    title: 'Ambiant Plus',
+    title: 'Ambiant plus',
     text: 'PIl peptide attivatore della sintesi di elastina, gli idrolizzati dicollagene e di elastina e gli estratti vegetali  ricchi di fitoestrogeni rassodano la pelle del corpo, ne aumentano la tonicità e l’elasticità, nonché migliorano la forma del seno.',
     tag: 'Corpo Perfetto',
   },
@@ -104,7 +104,7 @@ const productsData = [
   {
     id: uuidv4(),
     // img: card1,
-    title: 'All-season peelings',
+    title: 'All season peelings',
     text: 'Per la cura quotidiana del tuo corpo',
     tag: 'Prof',
   },

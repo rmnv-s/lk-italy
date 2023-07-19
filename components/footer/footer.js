@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <footer className={styles.footer}>
-        <div className={`${styles.footer__inner} `}>
+        <div className={`${styles.footer__inner} wrapper`}>
           <Link href='/'>
             <Image className={styles.logo_big} src={logo} alt='logo' />
           </Link>
