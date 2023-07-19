@@ -84,15 +84,15 @@ const productsData = [
     id: uuidv4(),
     img: corpoPerfetto,
     title: 'Corpo perfetto',
-    text: 'Per la cura quotidiana del tuo corpo',
-    tag: 'Body',
+    text: 'Il peptide attivatore della sintesi di elastina, gli idrolizzati dicollagene e di elastina e gli estratti vegetali  ricchi di fitoestrogeni rassodano la pelle del corpo, ne aumentano la tonicità e l’elasticità, nonché migliorano la forma del seno.',
+    tag: 'Corpo Perfetto',
   },
   {
     id: uuidv4(),
     img: ambiantPlus,
     title: 'Ambiant Plus',
-    text: 'Per la cura quotidiana del tuo corpo',
-    tag: 'Body',
+    text: 'PIl peptide attivatore della sintesi di elastina, gli idrolizzati dicollagene e di elastina e gli estratti vegetali  ricchi di fitoestrogeni rassodano la pelle del corpo, ne aumentano la tonicità e l’elasticità, nonché migliorano la forma del seno.',
+    tag: 'Corpo Perfetto',
   },
   {
     id: uuidv4(),
@@ -118,7 +118,7 @@ const productsData = [
 ];
 
 export const bodyProducts = () => {
-  return productsData.filter((product) => product.tag === 'Body');
+  return productsData.filter((product) => product.tag === 'Corpo Perfetto');
 };
 
 export default productsData;
