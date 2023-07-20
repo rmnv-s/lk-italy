@@ -1,3 +1,7 @@
+.product {
+  min-height: 80vh;
+}
+
 .inner {
   padding: 10rem 0 5rem;
   display: grid;
