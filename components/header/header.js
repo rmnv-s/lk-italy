@@ -18,7 +18,7 @@ const Header = () => {
               alt='logo'
               width={40}
               height={56}
-              onLoadingComplete={(e) => console.log(e)}
+              priority
             />
           </Link>
 

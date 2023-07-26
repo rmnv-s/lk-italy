@@ -1,4 +1,3 @@
-
 import { useRouter } from 'next/router';
 import data from '../../components/data/productsData';
 import Product from '../../components/product/product';
@@ -27,7 +26,12 @@ export default function Page() {
         {item ? (
           <section className={`${styles.product} wrapper`}>
             <div className={styles.inner}>
-              <Image className={styles.img} src={item.img} alt={item.title} priority/>
+              <Image
+                className={styles.img}
+                src={item.img}
+                alt={item.title}
+                priority
+              />
               <div className={styles.content}>
                 <h1 className={styles.heading}>{item.title}</h1>
                 <p className={styles.tag}>{item.tag}</p>
@@ -42,8 +46,5 @@ export default function Page() {
     );
   }
 
-
-  return <Loader />
-
-
+  return <Loader />;
 }
